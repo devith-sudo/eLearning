@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
             <div class="footer-brand">
               <a routerLink="/" class="brand-link">
                 <i class="fas fa-graduation-cap brand-icon"></i>
-                <span class="brand-text">WeLearn</span>
+                <span class="brand-text">Code Hunter</span>
               </a>
               <p class="brand-description">
                 Transform your career with premium online learning. Join millions of students worldwide.
@@ -55,21 +55,21 @@ import { RouterModule } from '@angular/router';
             <h4 class="footer-title">Company</h4>
             <ul class="footer-links">
               <li><a routerLink="/about" class="footer-link">About Us</a></li>
-              <li><a href="#" class="footer-link">Careers</a></li>
-              <li><a href="#" class="footer-link">Press</a></li>
-              <li><a href="#" class="footer-link">Blog</a></li>
-              <li><a href="#" class="footer-link">Contact</a></li>
+              <li><a routerLink="/careers" class="footer-link">Careers</a></li>
+              <li><a routerLink="/press" class="footer-link">Press</a></li>
+              <li><a routerLink="/blog" class="footer-link">Blog</a></li>
+              <li><a routerLink="" class="footer-link">Contact</a></li>
             </ul>
           </div>
           
           <div class="footer-section">
             <h4 class="footer-title">Support</h4>
             <ul class="footer-links">
-              <li><a href="#" class="footer-link">Help Center</a></li>
-              <li><a href="#" class="footer-link">Terms of Service</a></li>
-              <li><a href="#" class="footer-link">Privacy Policy</a></li>
-              <li><a href="#" class="footer-link">Accessibility</a></li>
-              <li><a href="#" class="footer-link">Student Discount</a></li>
+              <li><a routerLink="/help" class="footer-link">Help Center</a></li>
+              <li><a routerLink="/terms" class="footer-link">Terms of Service</a></li>
+              <li><a routerLink="/privacy" class="footer-link">Privacy Policy</a></li>
+              <li><a routerLink="/accessibility" class="footer-link">Accessibility</a></li>
+              <li><a routerLink="/student-discount" class="footer-link">Student Discount</a></li>
             </ul>
           </div>
           
@@ -87,11 +87,11 @@ import { RouterModule } from '@angular/router';
         
         <div class="footer-bottom">
           <div class="footer-bottom-content">
-            <p class="copyright">© 2024 WeLearn. All rights reserved.</p>
+            <p class="copyright">© 2025 Code Hunter. All rights reserved.</p>
             <div class="footer-bottom-links">
-              <a href="#" class="footer-bottom-link">Terms</a>
-              <a href="#" class="footer-bottom-link">Privacy</a>
-              <a href="#" class="footer-bottom-link">Cookies</a>
+              <a routerLink="/terms" class="footer-bottom-link">Terms</a>
+              <a routerLink="/privacy" class="footer-bottom-link">Privacy</a>
+              <a routerLink="" class="footer-bottom-link">Cookies</a>
             </div>
           </div>
         </div>

@@ -36,3 +36,11 @@ export interface Instructor {
   students: number;
   courses: number;
 }
+
+export interface TeamMember {
+  name: string;
+  role: string;
+  bio: string;
+  image: string;
+  alt: string;
+}

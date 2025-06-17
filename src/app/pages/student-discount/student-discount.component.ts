@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-student-discount',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   template: `
     <div class="student-discount-page">
       <div class="discount-header">
@@ -214,8 +215,8 @@ import { CommonModule } from '@angular/common';
               <h2>Ready to Start Learning?</h2>
               <p>Join thousands of students who are already saving 50% on their education with WeLearn.</p>
               <div class="cta-buttons">
-                <button class="btn btn-primary btn-lg">Apply for Student Discount</button>
-                <button class="btn btn-outline btn-lg">Browse Courses</button>
+                <button class="btn btn-primary btn-lg" routerLink="/courses">Apply for Student Discount</button>
+                <button class="btn btn-outline btn-lg" routerLink="/courses">Browse Courses</button>
               </div>
             </div>
           </div>

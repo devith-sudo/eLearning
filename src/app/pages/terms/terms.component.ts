@@ -23,7 +23,7 @@ import { CommonModule } from '@angular/common';
               <div class="terms-section">
                 <h2>1. Acceptance of Terms</h2>
                 <p>
-                  By accessing and using WeLearn's services, you accept and agree to be bound by the terms and 
+                  By accessing and using Code Hunter's services, you accept and agree to be bound by the terms and 
                   provision of this agreement. If you do not agree to abide by the above, please do not use this service.
                 </p>
               </div>
@@ -31,7 +31,7 @@ import { CommonModule } from '@angular/common';
               <div class="terms-section">
                 <h2>2. Description of Service</h2>
                 <p>
-                  WeLearn provides an online learning platform that offers educational courses, tutorials, and 
+                  Code Hunter provides an online learning platform that offers educational courses, tutorials, and 
                   related materials. Our service includes:
                 </p>
                 <ul>
@@ -76,8 +76,8 @@ import { CommonModule } from '@angular/common';
               <div class="terms-section">
                 <h2>5. Intellectual Property</h2>
                 <p>
-                  All content on WeLearn, including courses, videos, text, graphics, logos, and software, is the 
-                  property of WeLearn or its content suppliers and is protected by copyright and other intellectual 
+                  All content on Code Hunter, including courses, videos, text, graphics, logos, and software, is the 
+                  property of Code Hunter or its content suppliers and is protected by copyright and other intellectual 
                   property laws.
                 </p>
                 <p>
@@ -110,7 +110,7 @@ import { CommonModule } from '@angular/common';
                 <h2>7. Privacy Policy</h2>
                 <p>
                   Your privacy is important to us. Our Privacy Policy explains how we collect, use, and protect 
-                  your information when you use our service. By using WeLearn, you agree to the collection and 
+                  your information when you use our service. By using Code Hunter, you agree to the collection and 
                   use of information in accordance with our Privacy Policy.
                 </p>
               </div>
@@ -118,7 +118,7 @@ import { CommonModule } from '@angular/common';
               <div class="terms-section">
                 <h2>8. Disclaimers</h2>
                 <p>
-                  WeLearn provides the service "as is" without any warranties, expressed or implied. We do not 
+                  Code Hunter provides the service "as is" without any warranties, expressed or implied. We do not 
                   guarantee that:
                 </p>
                 <ul>
@@ -132,7 +132,7 @@ import { CommonModule } from '@angular/common';
               <div class="terms-section">
                 <h2>9. Limitation of Liability</h2>
                 <p>
-                  In no event shall WeLearn be liable for any indirect, incidental, special, consequential, or 
+                  In no event shall Code Hunter be liable for any indirect, incidental, special, consequential, or 
                   punitive damages, including without limitation, loss of profits, data, use, goodwill, or other 
                   intangible losses, resulting from your use of the service.
                 </p>
@@ -165,9 +165,9 @@ import { CommonModule } from '@angular/common';
                   If you have any questions about these Terms of Service, please contact us at:
                 </p>
                 <div class="contact-info">
-                  <p><strong>Email:</strong> legal&#64;welearn.com</p>
-                  <p><strong>Address:</strong> 123 Learning Street, Education City, EC 12345</p>
-                  <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                  <p><strong>Email:</strong> Devith&#64;Code Hunter.com</p>
+                  <p><strong>Address:</strong> In ur Heart</p>
+                  <p><strong>Phone:</strong> 092 498 933</p>
                 </div>
               </div>
             </div>

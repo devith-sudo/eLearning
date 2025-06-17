@@ -23,7 +23,7 @@ interface BlogPost {
     <div class="blog-page">
       <div class="blog-header">
         <div class="container">
-          <h1 class="page-title">WeLearn Blog</h1>
+          <h1 class="page-title">Code Hunter Blog</h1>
           <p class="page-description">
             Insights, tips, and stories from the world of online learning and education technology.
           </p>
@@ -487,12 +487,12 @@ export class BlogComponent {
     title: 'The Future of Online Learning: Trends to Watch in 2024',
     excerpt: 'Discover the latest trends shaping the future of online education, from AI-powered personalization to immersive virtual reality experiences.',
     content: '',
-    author: 'Sarah Johnson',
-    authorAvatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
+    author: 'Lim Kimtheng',
+    authorAvatar: 'assets/images/instructor/Theng.JPG',
     publishDate: 'Mar 15, 2024',
     readTime: '8 min',
     category: 'Technology',
-    image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'assets/images/courses/onlineLearning.webp',
     tags: ['EdTech', 'Future', 'AI', 'VR']
   };
 
@@ -502,12 +502,12 @@ export class BlogComponent {
       title: '10 Essential Skills Every Web Developer Should Master',
       excerpt: 'From HTML fundamentals to advanced JavaScript frameworks, here are the must-have skills for modern web development.',
       content: '',
-      author: 'Michael Chen',
-      authorAvatar: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=150',
+      author: 'Dul Devith',
+      authorAvatar: 'assets/images/instructor/Devith.jpg',
       publishDate: 'Mar 12, 2024',
       readTime: '6 min',
       category: 'Web Development',
-      image: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'assets/images/courses/node.jpeg',
       tags: ['JavaScript', 'HTML', 'CSS', 'React']
     },
     {
@@ -515,12 +515,12 @@ export class BlogComponent {
       title: 'How to Build a Successful Career in Data Science',
       excerpt: 'A comprehensive guide to breaking into data science, including essential skills, portfolio tips, and job search strategies.',
       content: '',
-      author: 'Emily Rodriguez',
-      authorAvatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150',
+      author: 'Deth Filit',
+      authorAvatar: 'assets/images/instructor/Filit.jpg',
       publishDate: 'Mar 10, 2024',
       readTime: '10 min',
       category: 'Career Tips',
-      image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'assets/images/courses/python.jpeg',
       tags: ['Data Science', 'Career', 'Python', 'Analytics']
     },
     {
@@ -528,12 +528,12 @@ export class BlogComponent {
       title: 'Design Principles That Every Developer Should Know',
       excerpt: 'Understanding basic design principles can make you a better developer and improve your user interfaces significantly.',
       content: '',
-      author: 'David Kim',
-      authorAvatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150',
+      author: 'Dul Devith',
+      authorAvatar: 'assets/images/instructor/Devith.jpg',
       publishDate: 'Mar 8, 2024',
       readTime: '7 min',
       category: 'Design',
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'assets/images/courses/uxui.jpeg',
       tags: ['Design', 'UI/UX', 'Principles', 'Development']
     },
     {
@@ -541,12 +541,12 @@ export class BlogComponent {
       title: 'The Rise of Remote Learning: Benefits and Challenges',
       excerpt: 'Exploring how remote learning has transformed education and what it means for students and educators worldwide.',
       content: '',
-      author: 'Lisa Anderson',
-      authorAvatar: 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=150',
+      author: 'Sim Lykeang',
+      authorAvatar: 'assets/images/instructor/Keang.jpg',
       publishDate: 'Mar 5, 2024',
       readTime: '9 min',
       category: 'Education',
-      image: 'https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'assets/images/courses/learning.jpeg',
       tags: ['Remote Learning', 'Education', 'Online', 'Technology']
     }
   ];

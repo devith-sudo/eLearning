@@ -35,6 +35,10 @@ const routes = [
   { path: 'student-discount', component: StudentDiscountComponent },
   { path: 'accessibility', component: AccessibilityComponent },
   { path: 'categories', component: CategoriesComponent },
+  { path: 'categories/:id', component: CoursesComponent },
+  { path: 'student-discount', component: StudentDiscountComponent },
+  { path: '404', component: HomeComponent }, // Placeholder for 404 page
+  { path: '500', component: HomeComponent }, // Placeholder for 500 page
   { path: '**', redirectTo: '' }
 ];
 

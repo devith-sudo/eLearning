@@ -31,11 +31,11 @@ import { RouterModule } from '@angular/router';
             </p>
             
             <div class="hero-actions animate-fade-in-up">
-              <button class="btn btn-primary btn-lg">
+              <button class="btn btn-primary btn-lg" routerLink="/courses">
                 <i class="fas fa-play"></i>
                 Start Learning Today
               </button>
-              <button class="btn btn-outline btn-lg">
+              <button class="btn btn-outline btn-lg" routerLink="/courses">
                 <i class="fas fa-search"></i>
                 Browse Courses
               </button>
@@ -65,9 +65,9 @@ import { RouterModule } from '@angular/router';
             <div class="hero-card-stack">
               <div class="hero-card card-1">
                 <div class="card-header">
-                  <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=80" alt="Instructor" class="instructor-avatar">
+                  <img src="../../../assets/images/instructor/Devith.jpg" alt="Instructor" class="instructor-avatar">
                   <div class="instructor-info">
-                    <div class="instructor-name">Sarah Johnson</div>
+                    <div class="instructor-name">Dul Devith</div>
                     <div class="course-rating">
                       <i class="fas fa-star"></i>
                       <span>4.9 (2.1k reviews)</span>

@@ -192,9 +192,9 @@ import { CommonModule } from '@angular/common';
                   If you have any questions about this Privacy Policy or our data practices, please contact us:
                 </p>
                 <div class="contact-info">
-                  <p><strong>Email:</strong> privacy&#64;welearn.com</p>
-                  <p><strong>Address:</strong> 123 Learning Street, Education City, EC 12345</p>
-                  <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                  <p><strong>Email:</strong> privacy&#64;Code Hunter.com</p>
+                  <p><strong>Address:</strong> In ur Heart</p>
+                  <p><strong>Phone:</strong> 092 498 933</p>
                 </div>
               </div>
             </div>

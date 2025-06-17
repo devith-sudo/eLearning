@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { Course, Category, Instructor } from '../models/course.model';
+import { Course, Category, Instructor, TeamMember } from '../models/course.model';
 
 @Injectable({
   providedIn: 'root'
@@ -12,8 +12,8 @@ export class CourseService {
       id: '1',
       title: 'Complete Web Development Bootcamp',
       description: 'Learn HTML, CSS, JavaScript, React, Node.js, and more in this comprehensive bootcamp.',
-      instructor: 'Sarah Johnson',
-      instructorAvatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
+      instructor: 'Dul Devith',
+      instructorAvatar: 'assets/images/instructor/Devith.jpg',
       price: 89.99,
       originalPrice: 199.99,
       rating: 4.8,
@@ -21,7 +21,7 @@ export class CourseService {
       duration: '52 hours',
       level: 'Beginner',
       category: 'Web Development',
-      thumbnail: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800',
+      thumbnail: 'assets/images/courses/node.jpeg',
       lessons: 156,
       students: 45230,
       tags: ['HTML', 'CSS', 'JavaScript', 'React'],
@@ -33,7 +33,7 @@ export class CourseService {
       title: 'Advanced React and Redux',
       description: 'Master React and Redux with real-world projects and modern development practices.',
       instructor: 'Lim Kimtheng',
-      instructorAvatar: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=150',
+      instructorAvatar: 'assets/images/instructor/Theng.JPG',
       price: 79.99,
       originalPrice: 159.99,
       rating: 4.9,
@@ -41,7 +41,7 @@ export class CourseService {
       duration: '35 hours',
       level: 'Advanced',
       category: 'React',
-      thumbnail: 'https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=800',
+      thumbnail: 'assets/images/courses/react.webp',
       lessons: 98,
       students: 23400,
       tags: ['React', 'Redux', 'JavaScript'],
@@ -52,7 +52,7 @@ export class CourseService {
       title: 'UI/UX Design Fundamentals',
       description: 'Learn design principles, Figma, user research, and create stunning interfaces.',
       instructor: 'Deth Filit',
-      instructorAvatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150',
+      instructorAvatar: 'assets/images/instructor/Filit.jpg',
       price: 69.99,
       originalPrice: 139.99,
       rating: 4.7,
@@ -60,7 +60,7 @@ export class CourseService {
       duration: '28 hours',
       level: 'Beginner',
       category: 'Design',
-      thumbnail: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
+      thumbnail: 'assets/images/courses/uxui.jpeg',
       lessons: 75,
       students: 18900,
       tags: ['Figma', 'Design', 'UX'],
@@ -70,8 +70,8 @@ export class CourseService {
       id: '4',
       title: 'Python for Data Science',
       description: 'Master Python programming for data analysis, visualization, and machine learning.',
-      instructor: 'Davith Dul',
-      instructorAvatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150',
+      instructor: 'Dul Devith',
+      instructorAvatar: 'assets/images/instructor/Devith.jpg',
       price: 94.99,
       originalPrice: 179.99,
       rating: 4.8,
@@ -79,7 +79,7 @@ export class CourseService {
       duration: '45 hours',
       level: 'Intermediate',
       category: 'Data Science',
-      thumbnail: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800',
+      thumbnail: 'assets/images/courses/python.jpeg',
       lessons: 120,
       students: 31200,
       tags: ['Python', 'Data Science', 'ML'],
@@ -89,8 +89,8 @@ export class CourseService {
       id: '5',
       title: 'Digital Marketing Mastery',
       description: 'Complete digital marketing course covering SEO, social media, and advertising.',
-      instructor: 'Lisa Anderson',
-      instructorAvatar: 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=150',
+      instructor: 'Panha Votey',
+      instructorAvatar: 'assets/images/instructor/Votey.jpg',
       price: 59.99,
       originalPrice: 119.99,
       rating: 4.6,
@@ -98,7 +98,7 @@ export class CourseService {
       duration: '32 hours',
       level: 'Beginner',
       category: 'Marketing',
-      thumbnail: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
+      thumbnail: 'assets/images/courses/marketing.webp',
       lessons: 85,
       students: 15600,
       tags: ['SEO', 'Social Media', 'Ads']
@@ -107,8 +107,8 @@ export class CourseService {
       id: '6',
       title: 'Mobile App Development with Flutter',
       description: 'Build beautiful cross-platform mobile apps using Flutter and Dart.',
-      instructor: 'Alex Thompson',
-      instructorAvatar: 'https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=150',
+      instructor: 'Sim Lykeang',
+      instructorAvatar: 'assets/images/instructor/Keang.jpg',
       price: 84.99,
       originalPrice: 169.99,
       rating: 4.7,
@@ -116,7 +116,7 @@ export class CourseService {
       duration: '38 hours',
       level: 'Intermediate',
       category: 'Mobile Development',
-      thumbnail: 'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=800',
+      thumbnail: 'assets/images/courses/mobile.webp',
       lessons: 102,
       students: 12800,
       tags: ['Flutter', 'Dart', 'Mobile']
@@ -131,7 +131,11 @@ export class CourseService {
     { id: '5', name: 'Mobile Development', icon: 'fas fa-mobile-alt', courseCount: 78 },
     { id: '6', name: 'Business', icon: 'fas fa-briefcase', courseCount: 134 },
     { id: '7', name: 'Photography', icon: 'fas fa-camera', courseCount: 67 },
-    { id: '8', name: 'Music', icon: 'fas fa-music', courseCount: 45 }
+    { id: '8', name: 'Music', icon: 'fas fa-music', courseCount: 45 },
+    { id: '9', name: 'Health & Fitness', icon: 'fas fa-heartbeat', courseCount: 82 },
+    { id: '10', name: 'Personal Development', icon: 'fas fa-user-plus', courseCount: 110 },
+    { id: '11', name: 'IT & Software', icon: 'fas fa-laptop-code', courseCount: 200 },
+    { id: '12', name: 'Languages', icon: 'fas fa-language', courseCount: 90 }
   ];
 
   private instructors: Instructor[] = [
@@ -139,7 +143,7 @@ export class CourseService {
       id: '1',
       name: 'Panha Votey',
       title: 'Full Stack Developer & Tech Lead',
-      avatar: '',
+      avatar: 'assets/images/instructor/Votey.jpg',
       bio: 'Senior developer with 10+ years of experience in web technologies. Former tech lead at Google and Microsoft, passionate about teaching modern web development.',
       rating: 4.9,
       students: 50000,
@@ -159,7 +163,7 @@ export class CourseService {
       id: '3',
       name: 'Delth Filit',
       title: 'Senior UX/UI Designer',
-      avatar: '',
+      avatar: 'assets/images/instructor/Filit.jpg',
       bio: 'Award-winning designer with expertise in user experience and interface design. Former design lead at Apple and Airbnb, specializing in design systems.',
       rating: 4.7,
       students: 28000,
@@ -169,7 +173,7 @@ export class CourseService {
       id: '4',
       name: 'Lim Kimtheng',
       title: 'Data Scientist & ML Engineer',
-      avatar: '',
+      avatar: 'assets/images/instructor/Theng.JPG',
       bio: 'PhD in Computer Science with specialization in machine learning and data analysis. Former researcher at Stanford AI Lab and data scientist at Netflix.',
       rating: 4.8,
       students: 31200,
@@ -179,7 +183,7 @@ export class CourseService {
       id: '5',
       name: 'Sim Lykeang',
       title: 'Digital Marketing Strategist',
-      avatar: '',
+      avatar: 'assets/images/instructor/Keang.jpg',
       bio: 'Marketing expert with 8+ years of experience in digital marketing and growth hacking. Former marketing director at several successful startups.',
       rating: 4.6,
       students: 15600,
@@ -189,11 +193,35 @@ export class CourseService {
       id: '6',
       name: 'Kong Samnang',
       title: 'Mobile App Developer',
-      avatar: '',
+      avatar: 'assets/images/instructor/Samnang.jpg',
       bio: 'Mobile development specialist with expertise in Flutter, React Native, and native iOS/Android development. Published multiple apps with millions of downloads.',
       rating: 4.7,
       students: 12800,
       courses: 5
+    }
+  ];
+
+  private teamMembers: TeamMember[] = [
+    {
+      name: 'Deth Filit',
+      role: 'Chief Executive Officer',
+      bio: 'Former VP of Education at Google with 15+ years in EdTech.',
+      image: 'assets/images/instructor/Filit.jpg',
+      alt: 'CTO'
+    },
+    {
+      name: 'Dul Devith',
+      role: 'Chief Technology Officer',
+      bio: 'Tech leader with expertise in scalable learning platforms.',
+      image: 'assets/images/instructor/Devith.jpg',
+      alt: 'CEO'
+    },
+    {
+      name: 'Lim Kimtheng',
+      role: 'Chief Product Officer',
+      bio: 'Product visionary focused on learner-centric experiences.',
+      image: 'assets/images/instructor/Theng.JPG',
+      alt: 'CPO'
     }
   ];
 
@@ -215,6 +243,10 @@ export class CourseService {
 
   getInstructors(): Observable<Instructor[]> {
     return of(this.instructors);
+  }
+
+  getTeamMembers(): Observable<TeamMember[]> {
+    return of(this.teamMembers);
   }
 
   getCoursesByCategory(categoryId: string): Observable<Course[]> {
